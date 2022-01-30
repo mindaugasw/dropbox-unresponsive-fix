@@ -50,7 +50,7 @@ class Processor
 
             $this->restartDropbox();
         } else {
-            $this->logger->log('Working okay');
+            $this->logger->log('Working correctly');
         }
 
         $this->logger->log('Script completed');

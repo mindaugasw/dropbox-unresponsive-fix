@@ -3,7 +3,7 @@
 // Override configuration in config.local.php
 
 // Enable logging to the console?
-$config['log_console_enable'] = true;
+$config['log_console_enable'] = false;
 // Enable logging to file specified in log_file_location?
 $config['log_file_enable'] = true;
 $config['log_file_location'] = __DIR__ . '/var/main.log';
